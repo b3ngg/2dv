@@ -1,0 +1,27 @@
+{
+  "name": "vector2d",
+  "version": "1.0.0",
+  "description": "Basic 2d vector calculations.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "run-p start-compile start-run",
+    "start-compile": "tsc --watch",
+    "start-run": "browser-sync start --server -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wetterben/vector2d.git"
+  },
+  "author": "Ben Weber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wetterben/vector2d/issues"
+  },
+  "homepage": "https://github.com/wetterben/vector2d#readme",
+  "devDependencies": {
+    "@types/p5": "^0.9.0",
+    "npm-run-all": "^4.1.5",
+    "browser-sync": "^2.26.7",
+    "typescript": "^3.8.3"
+  }
+}
