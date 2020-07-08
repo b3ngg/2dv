@@ -30,7 +30,7 @@ const newVector = Vector.add(myVector, 10);
 
 ## Overview
 
-Detailed documentation: [wetterben.github.io/2dv/](https://wetterben.github.io/2dv/classes/_index_.vector.html)
+Detailed documentation: [https://wetterben.github.io/2dv/](https://wetterben.github.io/2dv/classes/_index_.vector.html)
 
 ### Properties
 
@@ -84,7 +84,7 @@ Detailed documentation: [wetterben.github.io/2dv/](https://wetterben.github.io/2
 ## Documentation
 
 You can find a detailed documentation of all methods here:
-[wetterben.github.io/2dv/](https://wetterben.github.io/2dv/classes/_index_.vector.html)
+[https://wetterben.github.io/2dv/](https://wetterben.github.io/2dv/classes/_index_.vector.html)
 
 ## Roadmap
 
