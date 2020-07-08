@@ -15,7 +15,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "docs": "typedoc --out docs src"
+    "docs": "typedoc --out docs src",
+    "publish": "np --no-2fa"
   },
   "repository": {
     "type": "git",
