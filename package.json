@@ -1,12 +1,12 @@
 {
   "name": "vector2d",
   "version": "1.0.0",
-  "description": "Basic 2d vector calculations.",
+  "description": "Very useful small class to perform vector calculations. Very practical as basis for all kinds of simulations and games where objects move through a two-dimensional space. ",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "run-p start-compile start-run",
-    "start-compile": "tsc --watch",
-    "start-run": "browser-sync start --server -w"
+    "build": "tsc",
+    "docs": "typedoc --out docs src"
   },
   "repository": {
     "type": "git",
@@ -19,9 +19,8 @@
   },
   "homepage": "https://github.com/wetterben/vector2d#readme",
   "devDependencies": {
-    "@types/p5": "^0.9.0",
-    "npm-run-all": "^4.1.5",
-    "browser-sync": "^2.26.7",
+    "@types/node": "^14.0.13",
+    "typedoc": "^0.17.8",
     "typescript": "^3.8.3"
   }
 }

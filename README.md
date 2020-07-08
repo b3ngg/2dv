@@ -1,16 +1,28 @@
 # vector2d
 
-A very simple class to do basic 2d vector calculations. 
+Very useful small class to perform vector calculations. Very practical as basis for all kinds of simulations and games where objects move through a two-dimensional space.
 
-## Get started 
-The whole class can be easily found in the file: index.ts. 
-
-To start the example (a small planetary system) run: 
+## Get started
 
 ```
-npm i 
-npm start
+npm i vector2d
 ```
 
+Use in your JavaScript/Typescript project
 
-http://localhost:3000 should open up. 
+```
+import { Vector } from 'vector2d';
+
+const myVector = new Vector(10, 20);
+
+myVector.add(100);
+…
+
+const newVector = Vector.add(myVector, 10);
+…
+
+```
+
+## Contribute
+
+Feel free to add missing functions or fix things. Just do a PR.
