@@ -1,6 +1,7 @@
 # 2dv — Vector calculation package written in TypeScript
 
 ![build](https://github.com/wetterben/2dv/workflows/build/badge.svg)
+![npm](https://img.shields.io/npm/v/2dv)
 
 Very useful small class to perform vector calculations. Very practical as basis for all kinds of simulations and games where objects move through a two-dimensional space.
 
@@ -62,7 +63,7 @@ Detailed documentation: [wetterben.github.io/2dv/](https://wetterben.github.io/2
 - sub
 - toArray
 
-### Static
+#### Static
 
 - add
 - angleBetween
