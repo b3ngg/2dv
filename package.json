@@ -4,6 +4,9 @@
   "description": "Very useful small class to perform vector calculations. Very practical as basis for all kinds of simulations and games where objects move through a two-dimensional space. ",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "vector",
     "vector math",
