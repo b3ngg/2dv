@@ -8,7 +8,6 @@ export class Vector implements Point {
   constructor(public x: number = 0, public y: number = 0) {}
 
   /* 
-    ##########################################################################
     Instance Methods
   */
 
@@ -137,7 +136,6 @@ export class Vector implements Point {
   }
 
   /* 
-    ##########################################################################
     Static Methods
   */
 
