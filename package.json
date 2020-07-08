@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/wetterben/vector2d/issues"
   },
-  "homepage": "/docs/",
+  "homepage": "https://github.com/wetterben/vector2d#readme",
   "devDependencies": {
     "@types/node": "^14.0.13",
     "typedoc": "^0.17.8",
