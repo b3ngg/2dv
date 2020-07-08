@@ -1,5 +1,5 @@
 {
-  "name": "vector2d",
+  "name": "2dv",
   "version": "1.0.0",
   "description": "Very useful small class to perform vector calculations. Very practical as basis for all kinds of simulations and games where objects move through a two-dimensional space. ",
   "main": "lib/index.js",

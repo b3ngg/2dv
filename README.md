@@ -5,13 +5,15 @@ Very useful small class to perform vector calculations. Very practical as basis 
 ## Get started
 
 ```
-npm i vector2d
+npm i 2dv
 ```
 
 Use in your JavaScript/Typescript project
 
-```
-import { Vector } from 'vector2d';
+```js
+import { Vector } from '2dv';
+// OR
+const Vector = require('2dv);
 
 const myVector = new Vector(10, 20);
 
