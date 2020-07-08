@@ -1,4 +1,5 @@
 # 2dv — Vector calculation package written in TypeScript
+
 ![build](https://github.com/wetterben/2dv/workflows/build/badge.svg)
 
 Very useful small class to perform vector calculations. Very practical as basis for all kinds of simulations and games where objects move through a two-dimensional space.
@@ -14,7 +15,7 @@ Use in your JavaScript/Typescript project
 ```js
 import { Vector } from '2dv';
 // OR
-const Vector = require('2dv);
+const { Vector } = require('2dv');
 
 const myVector = new Vector(10, 20);
 
@@ -26,21 +27,27 @@ const newVector = Vector.add(myVector, 10);
 
 ```
 
-## Overview 
-Detailed documentation: https://wetterben.github.io/2dv/classes/_index_.vector.html
+## Overview
+
+Detailed documentation: [wetterben.github.io/2dv/](https://wetterben.github.io/2dv/classes/_index_.vector.html)
 
 ### Properties
+
 - x
 - y
 
 ### Accessors
+
 - angle
 - length
 - magnitude
 - max
 - min
+
 ### Methods
+
 #### Instance
+
 - add
 - angleTo
 - clone
@@ -55,7 +62,8 @@ Detailed documentation: https://wetterben.github.io/2dv/classes/_index_.vector.h
 - sub
 - toArray
 
-### Static 
+### Static
+
 - add
 - angleBetween
 - closestPointBetween
@@ -72,15 +80,16 @@ Detailed documentation: https://wetterben.github.io/2dv/classes/_index_.vector.h
 - pointBetween
 - sub
 
+## Documentation
 
-## Documentation 
-You can find a detailed documentation of all methods here: 
-https://wetterben.github.io/2dv/classes/_index_.vector.html
+You can find a detailed documentation of all methods here:
+[wetterben.github.io/2dv/](https://wetterben.github.io/2dv/classes/_index_.vector.html)
 
-## Roadmap 
-- [ ] Automated tests 
-- [ ] Visual Demo 
-- [ ] More methods 
+## Roadmap
+
+- [ ] Automated tests
+- [ ] Visual Demo
+- [ ] More methods
 
 ## Contribute
 
