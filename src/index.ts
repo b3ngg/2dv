@@ -4,7 +4,7 @@ interface Point {
 }
 
 /** The main Vector class */
-class Vector implements Point {
+export class Vector implements Point {
   constructor(public x: number = 0, public y: number = 0) {}
 
   /* 
@@ -260,5 +260,3 @@ class Vector implements Point {
     return new Vector(array[0], array[1]);
   }
 }
-
-module.exports = Vector;
